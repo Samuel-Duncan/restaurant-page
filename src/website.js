@@ -3,9 +3,9 @@ import loadHome from './home';
 import loadMenu from './menu';
 import loadContact from './contact';
 
-export const content = document.getElementById('content');
-
 const renderWebsite = () => {
+  const content = document.getElementById('content');
+
   const handleBody = (() => {
     const body = document.querySelector('body');
 

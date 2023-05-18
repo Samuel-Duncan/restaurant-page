@@ -29,9 +29,18 @@ body {
   border-bottom: var(--border);
 }
 
-.nav-item a.active {
-  background-color: #c35e0c;
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+}
+
+.nav-link {
   color: white;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: #c35e0c;
 }
 
 #main {
@@ -51,8 +60,7 @@ body {
   text-align: center;
   background-color: var(--background);
   width: 50%;
-  max-width: 100%;
-  max-height: 100%;
+  min-width: 75%;
   padding: 25px;
   gap: 25px;
   border-style: var(--border);

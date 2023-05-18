@@ -2,7 +2,7 @@ import chef_icon from './images/chef_icon.jpg';
 
 const createHome = () => {
   const home = document.createElement('div');
-  home.classList.add('home');
+  home.classList.add('home', 'py-5');
 
   const chefIcon = document.createElement('img');
   chefIcon.src = chef_icon;

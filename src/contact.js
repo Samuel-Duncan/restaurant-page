@@ -2,7 +2,7 @@ import luccinis_location from './images/luccinis_location.jpg';
 
 const createContact = () => {
   const contact = document.createElement('div');
-  contact.classList.add('tab-content', 'home');
+  contact.classList.add('tab-content', 'home', 'py-5');
 
   const lucLocation = document.createElement('img');
   lucLocation.src = luccinis_location;
