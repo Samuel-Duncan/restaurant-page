@@ -1,0 +1,30 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Restaurant Page - The Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samuel-Duncan/restaurant-page.git"
+  },
+  "author": "Samuel Duncan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samuel-Duncan/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/Samuel-Duncan/restaurant-page#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.83.0",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "eslint": "^8.40.0"
+  }
+}
