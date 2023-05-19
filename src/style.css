@@ -10,6 +10,7 @@
 
 body {
   height: 100%;
+  color: white;
 }
 
 #content {
@@ -32,6 +33,11 @@ body {
 h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 4rem;
+}
+
+.nav-link.active {
+  background-color: #c35e0c !important;
+  color: white !important;
 }
 
 .nav-link {
@@ -60,16 +66,16 @@ h1 {
   text-align: center;
   background-color: var(--background);
   width: 50%;
-  min-width: 75%;
   padding: 25px;
   gap: 25px;
   border-style: var(--border);
 }
 
 .home img {
-  height: auto;
-  width: 500px;
-  max-width: 100%;
+  width: 50%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  opacity: 90%;
 }
 
 .menu img {
@@ -88,4 +94,11 @@ h1 {
   background-color: var(--background);
   font-size: 1.2rem;
   border-top: var(--border);
+}
+
+@media (max-width: 700px) {
+  .home {
+    height: 100%;
+    width: 100%;
+  }
 }
